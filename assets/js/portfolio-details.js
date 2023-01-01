@@ -1,4 +1,3 @@
-
 function saveValue(projectName) {
     
 
@@ -22,24 +21,24 @@ function showDetails() {
     description;
 
     switch(selectedProject) {
-      case "elpr": {
+      case "portfolio_1": {
 
-	      img1Url = "assets/img/portfolio/elpr-details-1.jpg";
-	      img2Url = "assets/img/portfolio/elpr-details-2.jpg";
-	      img3Url = "assets/img/portfolio/elpr.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-1.1.jpg";
+	      img2Url = "assets/img/portfolio/portfolio-details-1.2.jpg";
+	      img3Url = "assets/img/portfolio/portfolio-details-1.3.jpg";
 	    
 	      projectName = " ELPR"
 	      category = " Mobile Application";
 	      client = " United States";
 	      description = "ELPR(Emergency Locator for Public Rescue) is an emergency service provider application that is design specially for public.";
-      
+
     	  break;
       } 
-      case "kidos": {
+      case "portfolio_2": {
 
-	      img1Url = "assets/img/portfolio/kidos-details-1.jpg";
-	      img2Url = "assets/img/portfolio/kidos-details-2.jpg";
-	      img3Url = "assets/img/portfolio/kidos-details-3.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-2.1.jpg";
+	      img2Url = "assets/img/portfolio/portfolio-details-2.2.jpg";
+	      img3Url = "assets/img/portfolio/portfolio-details-2.3.jpg";
 	    
 	      projectName = " Kidos"
 	      category = " Mobile Application";
@@ -49,11 +48,11 @@ function showDetails() {
 
   	    break;
     } 
-    case "sports_court": {
+    case "portfolio_3": {
 
-	      img1Url = "assets/img/portfolio/sports-court-details.jpg";
-	      img2Url = "assets/img/portfolio/sports-court-details.jpg";
-	      img3Url = "assets/img/portfolio/sports-court-details.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-3.1.jpg";
+	      img2Url = "assets/img/portfolio/portfolio-details-3.2.jpg";
+	      img3Url = "assets/img/portfolio/portfolio-details-3.3.jpg";
 	    
 	      projectName = " Sports Court";
 	      category = " Mobile Application";
@@ -64,11 +63,11 @@ function showDetails() {
 	  	 break;
 
     } 
-	case "video_player": {
+	case "portfolio_4": {
 
-	      img1Url = "assets/img/portfolio/Video Player.jpg";
-	      img2Url = "assets/img/portfolio/Video Player.jpg";
-	      img3Url = "assets/img/portfolio/Video Player.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-4.1.jpg";
+	      img2Url = "assets/img/portfolio/portfolio-details-4.2.jpg";
+	      img3Url = "assets/img/portfolio/portfolio-details-4.3.jpg";
 	    
 	      projectName = " Video Player";
 	      category = " Mobile Application";
@@ -78,11 +77,11 @@ function showDetails() {
 	      break;
 
     }
-    case "sloop": {
+    case "portfolio_5": {
 
-	      img1Url = "assets/img/portfolio/Sloop.jpg";
-	      img2Url = "assets/img/portfolio/Sloop.jpg";
-	      img3Url = "assets/img/portfolio/Sloop.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-5.1.jpg";
+	      img2Url = "assets/img/portfolio/portfolio-details-5.2.jpg";
+	      img3Url = "assets/img/portfolio/portfolio-details-5.3.jpg";
 	    
 	      projectName = " Sloop";
 	      category = " Mobile Application";
@@ -93,11 +92,11 @@ function showDetails() {
 	      break;   
 
     } 
-    case "e_serve": {
+    case "portfolio_6": {
 
-	      img1Url = "assets/img/portfolio/e-serve-details.jpg";
-	      img2Url = "assets/img/portfolio/e-serve-details.jpg";
-	      img3Url = "assets/img/portfolio/e-serve-details.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-6.1.jpg";
+	      img2Url = "assets/img/portfolio/e-serve-details-6.2.jpg";
+	      img3Url = "assets/img/portfolio/e-serve-details-6.3.jpg";
 	    
 	      projectName = " E-Serve";
 	      category = " Mobile Application";
@@ -106,11 +105,11 @@ function showDetails() {
 	   
 	   break;
     } 
-    case "soft_jobs": {
+    case "portfolio_7": {
 
-	      img1Url = "assets/img/portfolio/Soft Jobs.jpg";
-	      img2Url = "assets/img/portfolio/Soft Jobs.jpg";
-	      img3Url = "assets/img/portfolio/Soft Jobs.jpg";
+	      img1Url = "assets/img/portfolio/portfolio-details-7.1.jpg";
+	      img2Url = "assets/img/portfolio/portfolio-details-7.2.jpg";
+	      img3Url = "assets/img/portfolio/portfolio-details-7.3.jpg";
 	    
 	      projectName = " Soft Jobs";
 	      category = " Mobile Application";
@@ -132,5 +131,72 @@ function showDetails() {
     document.getElementById("project_url").href = projectUrl;
     document.getElementById("project_url").innerHTML = projectName;  
     document.getElementById("project_details").innerHTML = description;
+
+}
+
+
+function openUrl(selectedProject) {
+	var projectUrl;
+
+    switch(selectedProject) {
+      case "portfolio_1": {
+
+      	projectName = "ELPR";
+      	projectUrl = "";
+
+    	  break;
+      } 
+      case "portfolio_2": {
+
+      	projectName = "E-Serve";
+	      projectUrl = "";
+
+  	    break;
+    } 
+    case "portfolio_3": {
+
+      projectName = "Soft Jobs";
+    	projectUrl = "https://play.google.com/store/apps/details?id=com.gwsoft.softjobs";
+	   
+	  	break;
+
+    } 
+		case "portfolio_4": {
+
+			projectName = "Kidos";
+			projectUrl = "https://youtu.be/AKNkJSnxq94";
+
+			break;
+
+    }
+    case "portfolio_5": {
+
+    	projectName = "Sports Court";
+    	projectUrl = "https://youtu.be/tY0Oxuc_7YQ";
+	
+	    break;   
+
+    } 
+    case "portfolio_6": {
+   
+ 		 projectName = "Sloop";
+ 		 projectUrl = "https://youtu.be/PJYJQ3Kbqig";
+
+	   break;
+    } 
+    case "portfolio_7": {
+
+    		projectName = "Video Player";
+	      projectUrl = "";
+
+	      break;   
+    }
+
+}
+
+if (projectUrl) {
+	window.open(projectUrl, "_blank");
+}
+	
 
 }
