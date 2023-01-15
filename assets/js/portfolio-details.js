@@ -91,7 +91,7 @@ case "portfolio_5": {
     category = " Mobile Application";
     client = " Lahore Garrison University, Pakistan";
     videoUrl = "https://youtu.be/tY0Oxuc_7YQ";
-    playstoreUrl = "";
+    playstoreUrl = "https://play.google.com/store/apps/details?id=com.sportscourt.android";
     description = "Sport Court is an online sports booking application in which users can book sports-related venues in their comfort zone where they want, share skills with others, get match updates, and can take part in the events that will be organized by the courts owner. This will be beneficial for all users and courts owner. ";
     
     break;
