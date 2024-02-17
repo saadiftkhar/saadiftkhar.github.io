@@ -472,6 +472,15 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.download-icon {
+  font-size: 180px;
+  color: lightgray;
+}
+
+.download-text {
+  font-size: 20px;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
