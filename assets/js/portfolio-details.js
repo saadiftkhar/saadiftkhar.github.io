@@ -177,13 +177,85 @@ function openVideo(selectedProject) {
 
 }
 
+function getPlaystoreUrl(selectedProject) {
+    
+    switch(selectedProject) {
+    case "portfolio_1": {
+
+        return "https://play.google.com/store/apps/details?id=dubaipolice.esaad.ae.esaad_dubaipolice";
+
+        break;
+    }
+case "portfolio_2": {
+    return "https://play.google.com/store/apps/details?id=com.theentertainerme.rewards";
+    
+    break;
+}
+case "portfolio_3": {
+    return "https://play.google.com/store/apps/details?id=com.theentertainerme.hsbcentertainer";
+
+    break;   
+}
+case "portfolio_4": {
+
+    return "https://play.google.com/store/apps/details?id=com.theentertainerme.yahalah";
+    
+    break;
+} 
+case "portfolio_5": {
+    return "https://play.google.com/store/apps/details?id=com.alfuttaim.blue&hl=en";
+    break;
+
+} 
+case "portfolio_6": {
+return "https://play.google.com/store/apps/details?id=com.aldar.darna&hl=en&pli=1";
+    break;   
+} 
+case "portfolio_7": {
+
+    return "https://play.google.com/store/apps/details?id=com.takemeapps.customer";
+
+    break;
+
+}
+case "portfolio_8": {
+
+    return "https://play.google.com/store/apps/details?id=com.sportscourt.android";
+
+    break;
+
+}
+case "portfolio_9": {
+
+    return "https://play.google.com/store/apps/details?id=com.fcranking.android";
+
+    break;
+
+}
+case "portfolio_10": {
+
+    return "https://play.google.com/store/apps/details?id=com.codecstudio.easyscan";
+
+    break;
+
+}
+case "portfolio_11": {
+
+    return "https://play.google.com/store/apps/details?id=com.cmrewards.freespinslink&hl=en";
+
+    break;
+
+}
+}
+
+}
+
 function openPlaystore(selectedProject) {
 
-    var map = getDetails(selectedProject);
-    var videoUrl = map.get('playstore_url');
+    var url = getPlaystoreUrl(selectedProject);
 
-    if (videoUrl) {
-        window.open(videoUrl, "_blank");
+    if (url) {
+        window.open(url, "_blank");
     }
 
 
