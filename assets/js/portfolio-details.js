@@ -180,66 +180,78 @@ function openVideo(selectedProject) {
 function getPlaystoreUrl(selectedProject) {
     
     switch(selectedProject) {
-    case "portfolio_1": {
+    case "esaad": {
 
         return "https://play.google.com/store/apps/details?id=dubaipolice.esaad.ae.esaad_dubaipolice";
 
         break;
     }
-case "portfolio_2": {
+case "rewards_ent": {
     return "https://play.google.com/store/apps/details?id=com.theentertainerme.rewards";
     
     break;
 }
-case "portfolio_3": {
+case "hsbc": {
     return "https://play.google.com/store/apps/details?id=com.theentertainerme.hsbcentertainer";
 
     break;   
 }
-case "portfolio_4": {
+case "yahala": {
 
     return "https://play.google.com/store/apps/details?id=com.theentertainerme.yahalah";
     
     break;
 } 
-case "portfolio_5": {
+case "blue_rewards": {
+    
     return "https://play.google.com/store/apps/details?id=com.alfuttaim.blue&hl=en";
+    
     break;
 
 } 
-case "portfolio_6": {
-return "https://play.google.com/store/apps/details?id=com.aldar.darna&hl=en&pli=1";
+case "darna": {
+
+    return "https://play.google.com/store/apps/details?id=com.aldar.darna&hl=en&pli=1";
+  
     break;   
+
 } 
-case "portfolio_7": {
+case "takeme": {
 
     return "https://play.google.com/store/apps/details?id=com.takemeapps.customer";
 
     break;
 
 }
-case "portfolio_8": {
+case "sports_court": {
 
     return "https://play.google.com/store/apps/details?id=com.sportscourt.android";
 
     break;
 
 }
-case "portfolio_9": {
+case "fc_ranking": {
 
     return "https://play.google.com/store/apps/details?id=com.fcranking.android";
 
     break;
 
 }
-case "portfolio_10": {
+case "easy_scan": {
 
     return "https://play.google.com/store/apps/details?id=com.codecstudio.easyscan";
 
     break;
 
 }
-case "portfolio_11": {
+case "lgu_circle": {
+
+    return "https://play.google.com/store/search?q=lgu%20circle&c=apps&hl=en";
+
+    break;
+
+}
+case "spin_rewards": {
 
     return "https://play.google.com/store/apps/details?id=com.cmrewards.freespinslink&hl=en";
 
