@@ -186,36 +186,42 @@ function getPlaystoreUrl(selectedProject) {
 
         break;
     }
+
 case "rewards_ent": {
     return "https://play.google.com/store/apps/details?id=com.theentertainerme.rewards";
     
     break;
 }
+
 case "hsbc": {
     return "https://play.google.com/store/apps/details?id=com.theentertainerme.hsbcentertainer";
 
     break;   
 }
+
 case "yahala": {
 
     return "https://play.google.com/store/apps/details?id=com.theentertainerme.yahalah";
     
     break;
-} 
+}
+
 case "blue_rewards": {
     
     return "https://play.google.com/store/apps/details?id=com.alfuttaim.blue&hl=en";
     
     break;
 
-} 
+}
+
 case "darna": {
 
     return "https://play.google.com/store/apps/details?id=com.aldar.darna&hl=en&pli=1";
   
     break;   
 
-} 
+}
+
 case "takeme": {
 
     return "https://play.google.com/store/apps/details?id=com.takemeapps.customer";
@@ -223,6 +229,7 @@ case "takeme": {
     break;
 
 }
+
 case "sports_court": {
 
     return "https://play.google.com/store/apps/details?id=com.sportscourt.android";
@@ -230,6 +237,15 @@ case "sports_court": {
     break;
 
 }
+
+case "adro_intami": {
+
+    return "https://play.google.com/store/apps/details?id=com.theentertainerme.adro";
+  
+    break;   
+
+}
+
 case "fc_ranking": {
 
     return "https://play.google.com/store/apps/details?id=com.fcranking.android";
@@ -237,6 +253,7 @@ case "fc_ranking": {
     break;
 
 }
+
 case "easy_scan": {
 
     return "https://play.google.com/store/apps/details?id=com.codecstudio.easyscan";
@@ -244,13 +261,15 @@ case "easy_scan": {
     break;
 
 }
+
 case "lgu_circle": {
 
-    return "https://play.google.com/store/search?q=lgu%20circle&c=apps&hl=en";
+    return "https://play.google.com/store/apps/details?id=com.lgucircle.android";
 
     break;
 
 }
+
 case "spin_rewards": {
 
     return "https://play.google.com/store/apps/details?id=com.cmrewards.freespinslink&hl=en";
@@ -258,6 +277,7 @@ case "spin_rewards": {
     break;
 
 }
+
 }
 
 }
