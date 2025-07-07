@@ -222,9 +222,9 @@ case "darna": {
 
 }
 
-case "takeme": {
+case "wallo_sphere": {
 
-    return "https://play.google.com/store/apps/details?id=com.takemeapps.customer";
+    return "https://play.google.com/store/apps/details?id=com.wallosphere.live";
 
     break;
 
