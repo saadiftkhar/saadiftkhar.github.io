@@ -193,8 +193,8 @@ case "rewards_ent": {
     break;
 }
 
-case "hsbc": {
-    return "https://play.google.com/store/apps/details?id=com.theentertainerme.hsbcentertainer";
+case "curemd_avalon": {
+    return "https://play.google.com/store/apps/details?id=com.curemd.avalon";
 
     break;   
 }
@@ -222,9 +222,9 @@ case "darna": {
 
 }
 
-case "takeme": {
+case "wallo_sphere": {
 
-    return "https://play.google.com/store/apps/details?id=com.takemeapps.customer";
+    return "https://play.google.com/store/apps/details?id=com.wallosphere.live";
 
     break;
 
