@@ -262,17 +262,25 @@ case "easy_scan": {
 
 }
 
-case "lgu_circle": {
+case "journey_joy": {
 
-    return "https://play.google.com/store/apps/details?id=com.lgucircle.android";
+    return "https://play.google.com/store/apps/developer?id=HISHAM+MOHAMMED+AL-MALIKI+TECHNICAL+COMPANY";
 
     break;
 
 }
 
-case "spin_rewards": {
+case "my_tawasol": {
 
-    return "https://play.google.com/store/apps/details?id=com.cmrewards.freespinslink&hl=en";
+    return "https://play.google.com/store/apps/details?id=com.hr.unioncoop";
+
+    break;
+
+}
+
+case "union_coop": {
+
+    return "https://play.google.com/store/apps/details?id=com.unioncoop.ucs";
 
     break;
 
